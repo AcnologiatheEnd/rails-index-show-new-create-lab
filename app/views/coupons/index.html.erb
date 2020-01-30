@@ -1,5 +1,5 @@
 <% @coupons.each do |coup| %>
- link_to <p><%= coup.coupon_code %></p>
+ <a href="coupons/#{}"><p><%= coup.coupon_code %></p></a>
  <p><%= coup.store %></p><br>
   
 <% end %>

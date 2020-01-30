@@ -1,0 +1,5 @@
+<% @coupons.each do |coup| %>
+ <<p><%= link_to coup.coupon_code, coup %> | <%= coup.store %></p>
+ #<p><%= coup.store %></p><br>
+  
+<% end %>
